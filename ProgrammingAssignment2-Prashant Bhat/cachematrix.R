@@ -61,5 +61,5 @@ cacheSolve <- function(x, ...) {
   x$setInverse(m)
   
   ## Return the matrix
-  m
+  return(m)
 }
